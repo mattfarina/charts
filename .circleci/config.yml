@@ -1,0 +1,10 @@
+version: 2
+jobs:
+   build:
+     docker:
+       - image: mattfarina/k8s-charts-ci:latest
+     steps:
+       - checkout
+       - run: 
+           name: helm lint
+           command: .circleci/lint.sh

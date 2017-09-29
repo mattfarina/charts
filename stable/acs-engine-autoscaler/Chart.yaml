@@ -6,7 +6,7 @@ version: 2.0.0
 sources:
 - https://github.com/wbuchwalter/Kubernetes-acs-engine-autoscaler
 maintainers:
-- name: Rita Zhang
+- name: Rita Zhang foo
   email: ritazh@microsoft.com
 - name: William Buchwalter
   email: wibuch@microsoft.com
